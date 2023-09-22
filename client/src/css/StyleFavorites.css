@@ -1,0 +1,35 @@
+.conteiner-selects{
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.94);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.2em 0em;
+    width: 100%;
+   
+}
+
+.Reset{
+    border-radius:1em ;
+    padding: 0.4em 0.8em;
+    cursor: pointer;
+    border: none;
+}
+
+.Reset:hover{
+    background: rgb(48, 65, 250);
+    color: white;
+    transition: 0.5s;
+}
+
+.Select{
+   border-radius:0.5em ;
+    padding: 0.3em 1em ;
+    border: none;
+    
+}
+.Select:hover{
+    background: rgb(48, 65, 250);
+    color: white;
+    transition: 0.5s;
+}

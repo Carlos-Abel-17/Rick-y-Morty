@@ -1,0 +1,58 @@
+.header{
+    border-bottom: 0.5em rgba(255, 255, 255, 0.472) solid;
+   flex-wrap: wrap;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+    width: 5em;
+    height: 5em;
+    margin-left: 1em;
+    }
+    .title{
+        width: 20em;
+        height: 5em;
+        margin-right: 1em;
+    }
+}
+.conteiner-link{
+    display: flex;
+    align-items: center;
+    width: auto;
+    border-radius: 2em;
+    border: rgba(255, 255, 255, 0.724) 0.3em solid;
+    background: rgba(128, 128, 128, 0.553);
+  .link{
+    margin:0.5em;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+  }
+  
+}
+.busqueda{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    margin-right: 1vh;
+}
+.random{
+    margin-left: 0.5em;
+    border-radius: 2em;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    padding: 0.5em;
+    border: none;
+}
+.Logout{
+    margin-left: 0.5em;
+    border-radius: 0.5em;
+    background-color:rgb(63, 143, 255);
+    color: black;
+    cursor: pointer;
+    padding: 0.8em;
+    border: none;
+}

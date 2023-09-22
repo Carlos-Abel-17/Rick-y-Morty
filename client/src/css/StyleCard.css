@@ -1,0 +1,55 @@
+.carta{
+    border: rgba(255, 255, 255, 0.735) solid;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em 1em;
+    backdrop-filter: blur(3em);
+    width: 17em;
+    height: 28em;
+    border-radius: 0em 2em 0em 2em ;
+}
+
+.personajes{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+.datos{
+    margin:0.5rem 0em ;
+}
+
+.mas-detalles{
+        padding: 0.5rem 1em;
+        border-radius: 2em;
+        border: none;
+        cursor: pointer;
+        font-family: 'Fira Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Teko', sans-serif;
+font-size: large;
+font-weight: 100%;
+        background-color: rgba(255, 255, 255, 0.626);
+ }
+
+ .contenedor-boton{
+     .boton-borrar{
+         background: none;
+         border: none;
+         color: white;
+         cursor: pointer;
+         border-left: 0.2em solid black;
+    
+   }
+
+   .boton-fav{
+     background: none;
+         border: none;
+         color: white;
+         cursor: pointer;
+   }
+ }
+ 

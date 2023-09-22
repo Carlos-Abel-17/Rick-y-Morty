@@ -1,0 +1,10 @@
+.todo{
+    background-image: url('../img/fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 565px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}

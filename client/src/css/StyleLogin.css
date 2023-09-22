@@ -1,0 +1,53 @@
+.caja-principal{
+    background-image: url('https://64.media.tumblr.com/3d053da9b5b9eef2681ac1b0924f4ff2/tumblr_p60mgpdYwb1u0cbvdo2_1280.gif');
+   background-repeat: no-repeat;
+  background-size: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-externa{
+    border: solid rgba(255, 255, 255, 0.556) 0.5em;
+    border-radius: 2em;
+    backdrop-filter: blur(20px);
+    text-align: center;
+}
+.title{
+    margin-bottom:0;
+}
+.formulario{
+    background-color: rgba(199, 199, 199, 0.897);
+    margin: 1em 3em 3em 3em ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1em;
+    border: rgba(209, 209, 209, 0.59) solid 0.3em;
+    padding: 2em  2em 4em 2em;
+    width: 15rem;
+    height: 15rem;
+}
+.email{
+ margin-top: 0.5em;
+}
+
+.inputs{
+    margin: 0.8rem;
+    padding: 0.6em;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.boton-submit{
+    display: flex;
+   .submit{
+    background-color: rgb(21, 83, 255);
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5em;
+    color: white;
+   }
+}
